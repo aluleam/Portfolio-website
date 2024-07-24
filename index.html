@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masumbuko Alulea - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./scripts.js" defer></script>
+    <link rel="icon" type="image/jpeg" href="./images/mk-photo.jpeg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-header">
+            <div class="logo">
+                <img src="./images/mk-photo.jpeg" alt="Profile Picture">
+            </div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#courses">Relevant Courses</a></li>
+                <li><a href="#contact" class="button">Contact Me</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="home" class="section-home">
+            <h1>Masumbuko Alulea</h1>
+            <div class="intro">
+                <div class="intro-text">
+                    <p>
+                        As a dedicated junior pursuing a degree in Computer Science, I have developed a strong proficiency in software engineering. My passion for technology and security drives me to continually expand my knowledge and skills.
+                    </p>
+                </div>
+                <div class="intro-photo">
+                    <img src="./images/mk-photo.jpeg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+                
+        <section id="skills" class="section-skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><img src="./images/html-logo.jpeg" alt="HTML Logo"> HTML</li>
+                <li><img src="./images/css-logo.jpeg" alt="CSS Logo"> CSS</li>
+                <li><img src="./images/Js-logo.jpeg" alt="JavaScript Logo"> JavaScript</li>
+                <li><img src="./images/python-logo.jpeg" alt="Python Logo"> Python</li>
+                <li><img src="./images/c++-logo.jpeg" alt="C++ Logo"> C++</li>
+                <li><img src="./images/react-logo.jpeg" alt="React Logo"> React</li>
+                <li><img src="./images/node-logo.jpeg" alt="Node.js Logo"> Node.js</li>
+                <li><img src="./images/git-logo.jpeg" alt="Git Logo"> Git</li>
+                <li><img src="./images/data-structures-logo.jpeg" alt="Data Structures"> Data Structures</li>
+                <li><img src="./images/algorithms-logo.jpeg" alt="Algorithms Logo"> Algorithms</li>
+            </ul>
+        </section>   
+    
+        <section id="work-experience" class="work-experience">
+    <h2>Work Experience</h2>
+    <div class="work-experience">
+        <div class="work experience" data-description="<ul><li>Fabricated and assembled frames with precision, ensuring high-quality standards.</li><li>Operated and maintained various machinery and tools to produce frames.</li><li>Collaborated with team members to meet production goals and deadlines.</li></ul>">
+            <img src="./images/masterbrand-logo.jpeg" alt="Frame Maker">
+            <div class="project-info">
+                <h3>Frame Maker - Masterbrand, Sioux Falls, SD</h3>
+                <p>May 2024 – Present</p>
+            </div>
+        </div>
+        <div class="project-card" data-description="<ul><li>Operated warehouse equipment safely and efficiently.</li><li>Stored incoming packages for efficient delivery operations.</li><li>Collaborated with team members to maintain efficient workflow.</li></ul>">
+            <img src="./images/fedex-logo.jpeg" alt="Seasonal Package Handler">
+            <div class="project-info">
+                <h3>Seasonal Package Handler - FedEx, Sioux Falls, SD</h3>
+                <p>May 2023 – August 2023</p>
+            </div>
+        </div>
+        <div class="project-card" data-description="<ul><li>Stocked shelves and maintained inventory levels to ensure product availability.</li><li>Assisted customers in locating items and provided guidance and information as needed.</li><li>Collaborated with team members to manage stock and organize store displays efficiently.</li></ul>">
+            <img src="./images/walmart-logo.jpeg" alt="Inventory Stocker">
+            <div class="project-info">
+                <h3>Inventory Stocker - Walmart, Sioux Falls, SD</h3>
+                <p>February 2021 – November 2021</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="job-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="job-title"></h2>
+        <div id="job-description"></div>
+    </div>
+</div>
+
+        
+
+    </section>
+
+        <section id="projects" class="section-projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card" data-project="smart-mirror" data-description="<ul><li>Implemented voice recognition for hands-free operation.</li><li>Integrated with calendar APIs for daily schedule display.</li><li>Developed using Raspberry Pi and Python.</li></ul>">
+                    <img src="./images/smart-mirror-logo.avif" alt="Smart Mirror Project">
+                    <div class="project-info">
+                        <h3>Smart Mirror</h3>
+                    </div>
+                </div>
+                <div class="project-card" data-project="file-organizer" data-description="<ul><li>Developed a system to automatically categorize and sort files.</li><li>Implemented using Python and Tkinter.</li><li>Supports multiple file formats and custom categories.</li></ul>">
+                    <img src="./images/file-organizer.webp" alt="File Organizer Project">
+                    <div class="project-info">
+                        <h3>File Organizer</h3>
+                    </div>
+                </div>
+                <div class="project-card" data-project="health-tracker" data-description="<ul><li>Designed the application using React Native for cross-platform compatibility.</li><li>Tracks physical activity, diet, and sleep patterns.</li><li>Integrated with health APIs for real-time data synchronization.</li></ul>">
+                    <img src="./images/health-tracker-logo.jpg" alt="Health Tracker Project">
+                    <div class="project-info">
+                        <h3>Health Tracker</h3>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section id="courses" class="section-courses">
+            <h2>Relevant Courses</h2>
+            <ul>
+                <li><a href="#">Introduction to Computer Science</a></li>
+                <li><a href="#">Data Structures and&nbsp;Algorithms</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Software Engineering</a></li>
+                <li><a href="#">Digital Logic</a></li>
+                <li><a href="#">Discrete mathematics</a></li>
+
+            </ul>
+        </section>
+        
+        <section id="resume" class="section-resume">
+            <h2>Resume</h2>
+    
+            <a href="./images/Summer 2025 Intern Resume.pdf" download>Download Resume</a>
+            <button class = "view-resume" id="view-resume-btn">View Resume</button>
+            <embed id="resume-embed" src="./images/Summer 2025 Intern Resume.pdf" type="application/pdf" width="100%" height="600px" style="display:none;" />
+        </section>
+        <section id="contact" class="section-contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Masumbuko Alulea</p>
+        <div class="tech-logos">
+            <div class="logos-wrapper">
+                <img src="./images/html-logo.jpeg" alt="HTML">
+                <img src="./images/css-logo.jpeg" alt="CSS">
+                <img src="./images/Js-logo.jpeg" alt="JavaScript">
+                <img src="./images/python-logo.jpeg" alt="Python">
+                <img src="./images/react-logo.jpeg" alt="React">
+                <img src="./images/node-logo.jpeg" alt="Node.js">
+                <img src="./images/github-logo.jpeg" alt="GitHub">
+                <img src="./images/xcode-logo.jpeg" alt="Java">
+                <img src="./images/c++-logo.jpeg" alt="C++">
+                
+            </div>
+            
+        </div>
+        <div id="social-media">
+            <a href="https://github.com/aluleam" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/mk-alulea/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="project-title"></h2>
+            <p id="project-description"></p>
+        </div>
+    </div>
+    <div id="course-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="course-title"></h2>
+            <p id="course-description"></p>
+        </div>
+    </div>
+</body>
+</html>
