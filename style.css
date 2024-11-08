@@ -234,17 +234,12 @@ body {
 
 /* Mobile Menu Styling */
 #sidemenu {
-    display: flex;
-    gap: 20px;
-}
-
-#sidemenu.open {
-    display: block;
+    display: auto;
 }
 
 @media (max-width: 768px) {
     .nav-menu {
-        display: none;
+        display: flex;
         position: absolute;
         top: 0;
         left: 0;
@@ -274,6 +269,7 @@ body {
         right: 20px;
     }
 }
+
 
 .skills-container {
     background-color: #f9f9f9;
