@@ -157,6 +157,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.classList.add('open');
+}
+
+function closemenu() {
+    sidemenu.classList.remove('open');
+}
+
+
 
 function openmenu() {
     document.getElementById("sidemenu").style.display = "block";
