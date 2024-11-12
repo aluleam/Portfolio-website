@@ -962,7 +962,6 @@ nav:hover .logo {
     color: white;
 }
 
-/* Responsive Design for Services */
 @media (max-width: 768px) {
     .services-list {
         grid-template-columns: 1fr 1fr;
