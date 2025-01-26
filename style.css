@@ -37,9 +37,9 @@ body {
     font-size: 16px;
 }
 
+
 /* Header Section */
 #header {
-    
     min-height: 100vh;
     position: relative;
     overflow: hidden;
@@ -55,6 +55,38 @@ body {
     padding: 120px 0;
     position: relative;
     z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 20px; /* Adjust padding for smaller screens */
+        gap: 30px; /* Reduce gap for mobile */
+    }
+
+    .header-text {
+        max-width: 100%; /* Allow text to take up more space on mobile */
+    }
+
+    .profile-picture {
+        width: 250px; /* Adjust size of profile picture for mobile */
+        height: 250px;
+        margin: 0 auto; /* Center the profile picture */
+    }
+
+    .typewriter {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+
+    .header-text h1 {
+        font-size: 3rem; /* Reduce the font size for smaller screens */
+    }
+
+    .header-text p {
+        font-size: 1.2rem; /* Adjust paragraph text size for mobile */
+    }
 }
 
 /* Header Text */
@@ -74,10 +106,9 @@ body {
 .header-text h1 {
     font-size: 4rem;
     margin-bottom: 25px;
-    color: var(--light-text); 
-    background: none; 
+    color: var(--light-text);
+    background: none;
 }
-
 
 .typewriter {
     font-size: 1.8rem;
@@ -207,7 +238,6 @@ body {
     50% { transform: translateY(-20px); }
 }
 
-/* Mobile Responsive */
 @media (max-width: 992px) {
     .header-container {
         flex-direction: column;
@@ -281,11 +311,7 @@ body {
 
 
 
-
-
-
-
-/* Dynamic Header Design */
+/* Centered Header Section */
 #header {
     background: radial-gradient(ellipse at 75% 25%, #0a1929 0%, #020d1a 100%);
     min-height: 100vh;
@@ -432,6 +458,7 @@ body {
         padding: 4rem;
         transition: 0.5s;
         backdrop-filter: blur(12px);
+        left: 0; /* Ensure it opens from the left */
     }
     
     .nav-menu.active {
@@ -450,9 +477,21 @@ body {
         right: 2rem;
         top: 2rem;
     }
+    
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-text p {
+        font-size: 1rem;
+    }
+
+    .typewriter {
+        font-size: 1rem;
+    }
 }
 
-/* Particle Background Effect */
+
 #header::before {
     content: '';
     position: absolute;
@@ -469,6 +508,7 @@ body {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
+
 
 
 
