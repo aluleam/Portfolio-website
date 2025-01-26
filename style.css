@@ -222,7 +222,7 @@ body {
     }
 
     .header-text h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .typewriter {
@@ -1396,7 +1396,7 @@ body {
 }
 
 .section-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 4rem;
     background: linear-gradient(45deg, #00ff88, #00ccff);
@@ -1785,7 +1785,7 @@ body {
 }
 
 .sub-title-skills {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 6rem;
     position: relative;
@@ -1880,7 +1880,7 @@ body {
     animation: connectDots 1s linear forwards;
 }
 
-/* Transferable Skills - Holographic Display */
+
 .advanced-skills-list {
     display: flex;
     justify-content: center;
@@ -2560,7 +2560,7 @@ body {
 
 /* Professional Experience Timeline */
 .section-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 6rem 0;
     background: linear-gradient(45deg, #00ff88, #00ccff);
