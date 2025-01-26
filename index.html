@@ -7,8 +7,11 @@
     <title>Masumbuko Alulea - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="theme-color" content="#2c3e50">
+    <meta property="og:image" content="images/social-preview.jpg">
 
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-39VH3H4M3K"></script>
@@ -23,13 +26,17 @@
 </head>
 
 <body>
-    
+   
+
+
+
+   
         <div id="header">
             <div class="container">
 
                 <nav class="navbar">
                     <a href="#header" class="logo-link" aria-label="Go to Home">
-                        <img src="images/logo.jpg" alt="Site Logo" class="logo">
+                    
                     </a>
                     <ul id="sidemenu" class="nav-menu">
                         <li><a href="#header" class="nav-item">Home</a></li>
@@ -50,7 +57,7 @@
                         <p>Hello there,</p>
                         <h1>I'm <span class="name-highlight">Masumbuko Alulea</span></h1>
                         <div class="typewriter">
-                            <p>Eager to secure a <span>software engineering internship</span> where I can apply my technical skills.</p>
+                            <p>Eager to secure an <span>artificial intelligence internship</span>, with the opportunity to apply my technical skills in software engineering and the AI projects I have completed.</p>
                         </div>
                     </div>
                 </div>
@@ -59,6 +66,24 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div id="coursework">
             <div class="container">
@@ -118,17 +143,41 @@
         
             </div>
         </div>
-        
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-               <!--- <img src="images/background-photo.png" alt= "Masumbuko Alulea"> ---->
-            </div>
 
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG_E1321.JPG" alt="Masumbuko Alulea">
+                    </div>
+                    <div class="about-content">
+                        <h2>Innovative Developer & Creative Problem Solver</h2>
+                        <p>I love creating technology that solves real problems. With over 3+ years of building websites from start to finish, I focus on making tools that are easy to use, work smoothly on any device, and help businesses succeed</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">20+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">Good</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Coding Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+
+
+
+
+
 
 <!-- ---------services---------------- -->
 <div id="services">
@@ -157,8 +206,187 @@
     </div>
 </div>
 
+
+
+<!-- AI Projects Section -->
+<section id="ai-projects" class="section">
+    <div class="container">
+        <h2 class="section-title">AI Innovations</h2>
+        <div class="project-grid">
+
+            <!-- Resume Parser -->
+            <article class="project-card ai-project">
+                <div class="project-media">
+                    <img src="images/pexels-luis-gomes-166706-546819.jpg" alt="AI Resume Parser Interface" loading="lazy">
+                    <div class="project-links">
+                        <a href="https://github.com/aluleam/AI-projects" class="github-link" aria-label="View source code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Smart Resume Analyzer</h3>
+                    <div class="tech-stack">
+                        <span class="tech-badge nlp">NLP</span>
+                        <span class="tech-badge python">Python</span>
+                        <span class="tech-badge bert">BERT</span>
+                    </div>
+                    <p class="project-description">
+                        Natural Language Processing system using spaCy and Transformers to analyze resumes with:
+                    </p>
+                    <ul class="feature-list">
+                        <li>Entity recognition for skills extraction</li>
+                        <li>Experience timeline generation</li>
+                        <li>Automated candidate scoring (F1-score: 0.92)</li>
+                    </ul>
+                    <div class="project-cta">
+                        <a href="#resume-demo" class="demo-link">View Demo</a>
+                        <a href="#" class="docs-link">Technical Paper</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Disease Prediction -->
+            <article class="project-card ai-project">
+                <div class="project-media">
+                    <img src="images/national-cancer-institute-rHfsPolwIgk-unsplash.jpg" alt="Disease Prediction Dashboard" loading="lazy">
+                    <div class="project-links">
+                        <a href="https://github.com/aluleam/AI-projects" class="github-link" aria-label="View source code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Medical Diagnostic Assistant</h3>
+                    <div class="tech-stack">
+                        <span class="tech-badge ml">Machine Learning</span>
+                        <span class="tech-badge tensorflow">TensorFlow</span>
+                        <span class="tech-badge flask">Flask</span>
+                    </div>
+                    <p class="project-description">
+                        Predictive healthcare system featuring:
+                    </p>
+                    <ul class="feature-list">
+                        <li>Random Forest classification (Accuracy: 89%)</li>
+                        <li>Symptom correlation analysis</li>
+                        <li>Risk probability visualization</li>
+                    </ul>
+                    <div class="project-metadata">
+                        <div class="metadata-item">
+                            <i class="fas fa-database"></i>
+                            <span>Dataset: 5,000+ patient records</span>
+                        </div>
+                        <div class="metadata-item">
+                            <i class="fas fa-microscope"></i>
+                            <span>Precision: 0.87 | Recall: 0.91</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Financial Assistant -->
+            <article class="project-card ai-project">
+                <div class="project-media">
+                    <img src="images/austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="Financial Analytics Dashboard" loading="lazy">
+                    <div class="project-links">
+                        <a href="https://github.com/aluleam/AI-projects" class="github-link" aria-label="View source code">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Intelligent Finance Assistant</h3>
+                    <div class="tech-stack">
+                        <span class="tech-badge lstm">LSTM</span>
+                        <span class="tech-badge sentiment">Sentiment Analysis</span>
+                        <span class="tech-badge api">REST API</span>
+                    </div>
+                    <p class="project-description">
+                        Multi-module financial analysis system with:
+                    </p>
+                    <ul class="feature-list">
+                        <li>Stock price prediction (RMSE: 2.34)</li>
+                        <li>News sentiment scoring (VADER + Custom ML)</li>
+                        <li>Portfolio optimization algorithms</li>
+                    </ul>
+                    <div class="integration-badges">
+                        <span class="integration-badge">Alpaca API</span>
+                        <span class="integration-badge">yFinance</span>
+                        <span class="integration-badge">DeepSeek</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+        
+        <!-- Project Navigation -->
+        <div class="project-footer">
+            <a href="https://github.com/aluleam?tab=repositories" class="view-all-btn">
+                Explore All AI Projects
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="skills-container">
-    <h1 class="sub-title-skills">TECHNICAL SKILLS</h1>
+    <h1 class="sub-title-skills">TOOLS AND TECHNOLOGIES</h1>
     <div class="skills">
         <!-- Technical Skills -->
         <a href="https://angular.io" target="_blank" rel="noopener noreferrer">
@@ -239,19 +467,7 @@
 
 </head>
 <body>
-    <script>
-        
-        document.addEventListener('DOMContentLoaded', () => {
-            const categories = document.querySelectorAll('.category');
-            
-            categories.forEach(category => {
-                category.addEventListener('click', () => {
-                    category.classList.toggle('expanded');
-                });
-            });
-        });
-    </script>
-
+    
     <h2 class="school-projects">SCHOOL PROJECTS</h2>
     <section id="projects" class="projects-section">
         <div class="projects-container">
@@ -268,7 +484,7 @@
                 <img src="images/processor.jpg" alt="10-Bit Blaster Processor Project">
                 <h3 class="project-title">10-Bit Processor</h3>
                 <p class="project-description">A custom-designed 10-bit processor developed with SystemVerilog for the DE10-Lite board, focusing on data movement, arithmetic, and logical operations.</p>
-                <a href="https://github.com/aluleam" class="project-link">View Project</a>
+                <a href="https://github.com/aluleam/10bit-processor" class="project-link">View Project</a>
             </div>
             <!-- Project 3: WealthApp -->
             <div class="project-card">
@@ -277,10 +493,48 @@
                 <p class="project-description">A personal finance app designed to help users track income, expenses, and investments, with a simple user interface and powerful analytics.</p>
                 <a href="https://github.com/aluleam" class="project-link">View Project</a>
             </div>
+
+            
         </div>
     </section>
 
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="section-title">My Experience</div>
 <div class="experience-list">
     <div class="experience-item">
@@ -306,35 +560,51 @@
 </div>
 
 
-<div class="section-title">Education</div>
 <div class="tab-contents" id="education">
     <ul>
         <li class="education-item">
             <div class="degree-info">
-                <span>Expected Graduation: May/2026</span><br>
-                Bachelor of Science in Computer Science
+                <span>Expected Graduation: May 2026</span>
+                <div class="degree-name">Bachelor of Science in Computer Science</div>
             </div>
             <div class="school-name">South Dakota State University</div>
+            <div class="graduation-progress"></div>
+            <div class="academic-stats">
+                <div class="stat-item">
+                    <span class="stat-value">Junior</span>
+                    <span class="stat-label">Academic Standing</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">87</span>
+                    <span class="stat-label">Credits Earned</span>
+                </div>
+            </div>
         </li>
     </ul>
 </div>
 
-<!-- ----------contact------------ -->
-
+<!-- ----------contact------------ --> 
 <div id="contact">
     <div class="container">
         <div class="row">
             <div class="contact">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i> Masumbukoalulea@gmail.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> Sioux Falls, SD</p>
-                <div class="social-icons">
-                    <a href="https://github.com/aluleam" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mk-alulea/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <div class="contact-content">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-info">
+                        <p><i class="fas fa-paper-plane"></i>Masumbukoalulea@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Sioux Falls, SD</p>
+                    </div>
+                    <div class="social-icons">
+                        <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/mk-alulea/" target="_blank">LinkedIn</a></p>
+                        <p><i class="fab fa-github"></i><a href="https://github.com/aluleam" target="_blank">GitHub</a></p>
+                    </div>
                 </div>
-                <a href="images/Masumbuko Alulea Resume.pdf" download class="btn btn2">Download Resume</a>
+                <div class="contact-action">
+                    <a href="images/Masumbuko 2025 Summer Intern Resume.pdf" download class="btn btn2">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -343,64 +613,55 @@
     </div>
 </div>
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-    var sidemeu = document.getElementById("sidemenu");
-
-    function openmenu() {
-        sidemeu.style.right = "0";
-    }
-
-    function closemenu() {
-        sidemeu.style.right = "-200px";
-    }
-
-    const scriptURL = '';
-    const form = document.forms['submit-to-google-sheet'];
-    const msg = document.getElementById("msg");
-
-    form.addEventListener('submit', e => {
-        e.preventDefault();
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(response => {
-                msg.innerHTML = "Message sent successfully";
-                setTimeout(function () {
-                    msg.innerHTML = "";
-                }, 5000);
-                form.reset();
-            })
-            .catch(error => console.error('Error!', error.message));
-    });
-
-    function toggleDescription(id) {
-        var description = document.getElementById(id);
-
-        if (description.classList.contains('active')) {
-            description.classList.remove('active');
-        } else {
-
-            var allDescriptions = document.querySelectorAll('.course-desc');
-            allDescriptions.forEach(function (desc) {
-                desc.classList.remove('active');
-            });
-
-            description.classList.add('active');
-        }
-    }
-</script>
-</div>
+<script src="app.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
