@@ -19,7 +19,6 @@
     
 }
 
-/* Root level smooth scroll */
 html {
     scroll-behavior: smooth;
 }
@@ -31,67 +30,6 @@ body {
     line-height: 1.7;
     font-size: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Coursework Section */
 #coursework {
@@ -199,21 +137,6 @@ body {
         border: 1px solid rgba(255, 255, 255, 0.2);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Centered Header Section */
 #header {
@@ -416,22 +339,6 @@ body {
     to { transform: rotate(360deg); }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -540,26 +447,6 @@ body {
         display: block;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* About Section Styles */
 #about {
@@ -745,96 +632,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #coursework {
     background: var(--dark-bg);
     padding: 8rem 0;
@@ -1008,41 +805,6 @@ body {
 .coursework-item:nth-child(4) { animation-delay: 0.5s; }
 .coursework-item:nth-child(5) { animation-delay: 0.6s; }
 .coursework-item:nth-child(6) { animation-delay: 0.7s; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Services Section */
 #services {
@@ -1244,50 +1006,6 @@ body {
         padding: 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* AI Projects Section */
 #ai-projects {
@@ -1644,54 +1362,6 @@ body {
     animation: terminalBlink 1s infinite;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Next-Gen Skills Matrix */
 .skills-container {
     padding: 10rem 0;
@@ -1905,51 +1575,6 @@ body {
         flex-wrap: wrap;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Architectural Portfolio Grid */
 #portfolio {
@@ -2198,38 +1823,6 @@ body {
     letter-spacing: 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Academic Projects Gallery */
 .school-projects {
     font-size: 3.2rem;
@@ -2446,35 +2039,12 @@ body {
     100% { background-position: 0 100%; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes terminalBlink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
 /* Professional Experience Timeline */
 .section-title {
     font-size: 3rem;
@@ -2664,36 +2234,6 @@ body {
     background-image: url('walmart-logo.png');
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Academic Credentials Section */
 .section-title {
     font-size: 3.5rem;
@@ -2857,8 +2397,6 @@ body {
     }
 }
 
-
-
 .academic-stats {
     display: flex;
     gap: 2rem;
@@ -2889,25 +2427,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Contact Section Styles */
 #contact {
@@ -3055,37 +2574,3 @@ body {
         padding: 1rem 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
